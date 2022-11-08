@@ -282,6 +282,20 @@ end
 
 )
 
+local PlayerMods = serv:Channel("Player")
+
+PlayerMods:Button(
+
+    "Invisible",
+
+    function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cesare0328/my-scripts/main/arsenal%20updated%20invis.lua'),true))()
+
+end
+
+)
+
 local GunMods = serv:Channel("Gun Mods")
 
 GunMods:Button(
